@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Al_Majeed_Quranic';
+    src: url('Al_Majeed_Quranic.ttf'); /* Update with the correct path to the font file */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    font-family: 'Tajawal', sans-serif; /* Use Tajawal font for general text */
+}
+
+canvas {
+    display: block;
+}
+
+#verse-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#verse {
+    font-size: 20px; /* Adjust size as needed */
+    margin: 10px 0;
+    direction: rtl; /* Right-to-left direction for Arabic text */
+    font-family: 'Al_Majeed_Quranic', sans-serif; /* Use local font */
+}
+
+#reference {
+    font-size: 18px; /* Adjust size as needed */
+    color: white;
+    direction: rtl; /* Right-to-left direction for Arabic text */
+    font-family: 'Al_Majeed_Quranic', sans-serif; /* Use local font */
+}
+
+#message {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px; /* Adjust size as needed */
+    text-align: center;
+    color: white;
+    font-family: 'Tajawal', sans-serif; /* Use Tajawal font */
+    direction: ltr; /* Left-to-right direction for English text */
+}
+
+body {
+    user-select: none; /* Prevent text selection */
+    -webkit-user-select: none; /* Prevent text selection in WebKit browsers */
+    -moz-user-select: none; /* Prevent text selection in Firefox */
+    -ms-user-select: none; /* Prevent text selection in IE/Edge */
+    overflow: hidden; /* Prevent scrolling */
+}
