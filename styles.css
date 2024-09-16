@@ -40,14 +40,18 @@ canvas {
 
 #message {
     position: fixed;
-    bottom: 20px;
+    bottom: 18px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 16px; /* Adjust size as needed */
     text-align: center;
-    color: white;
+    color: snow; /* Change text color to snow */
     font-family: 'Tajawal', sans-serif; /* Use Tajawal font */
     direction: ltr; /* Left-to-right direction for English text */
+}
+
+.heart {
+    color: crimson; /* Change heart symbol color to crimson */
 }
 
 body {
