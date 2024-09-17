@@ -1,15 +1,16 @@
 @font-face {
-    font-family: 'Al_Majeed_Quranic';
-    src: url('Al_Majeed_Quranic.ttf'); /* Update with the correct path to the font file */
+    font-family: "Al_Majeed_Quranic";
+    src: url("Al_Majeed_Quranic.ttf"); /* Update with the correct path to the font file */
 }
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
     color: white;
-    font-family: 'Tajawal', sans-serif; /* Use Tajawal font for general text */
+    font-family: "Tajawal", sans-serif; /* Use Tajawal font for general text */
 }
 
 canvas {
@@ -28,14 +29,14 @@ canvas {
     font-size: 20px; /* Adjust size as needed */
     margin: 10px 0;
     direction: rtl; /* Right-to-left direction for Arabic text */
-    font-family: 'Al_Majeed_Quranic', sans-serif; /* Use local font */
+    font-family: "Al_Majeed_Quranic", sans-serif; /* Use local font */
 }
 
 #reference {
     font-size: 18px; /* Adjust size as needed */
     color: white;
     direction: rtl; /* Right-to-left direction for Arabic text */
-    font-family: 'Al_Majeed_Quranic', sans-serif; /* Use local font */
+    font-family: "Al_Majeed_Quranic", sans-serif; /* Use local font */
 }
 
 #message {
@@ -46,12 +47,20 @@ canvas {
     font-size: 14px; /* Adjust size as needed */
     text-align: center;
     color: snow; /* Change text color to snow */
-    font-family: 'Tajawal', sans-serif; /* Use Tajawal font */
+    font-family: "Tajawal", sans-serif; /* Use Tajawal font */
     direction: ltr; /* Left-to-right direction for English text */
 }
 
 .heart {
     color: crimson; /* Change heart symbol color to crimson */
+}
+
+.star {
+    color: gold; /* Change star symbol color to gold */
+}
+
+.pinky {
+    color: HotPink;
 }
 
 body {
